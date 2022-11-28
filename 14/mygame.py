@@ -1,11 +1,9 @@
 import game_framework
 import pico2d
-import os
 
 import play_state
 
-os.chdir(os.path.dirname(__file__))
-
-pico2d.open_canvas(1600, 600)
+# pico2d.open_canvas(400, 300)
+pico2d.open_canvas(800, 600)
 game_framework.run(play_state)
 pico2d.close_canvas()
